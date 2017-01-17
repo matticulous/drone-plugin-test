@@ -3,4 +3,7 @@ pipeline:
     image: golang
     commands:
       - go build
-
+  publish:
+    image: plugins/drone-gh-pages
+    source: docs
+    remote: origin
