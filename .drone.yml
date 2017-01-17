@@ -7,6 +7,4 @@ pipeline:
     commands:
       - go build
   publish:
-    gh-pages:
-      source: docs
-      remote: origin
+    image: plugins/drone-gh-pages
