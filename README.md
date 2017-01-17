@@ -1,1 +1,0 @@
-# drone-plugin-test
