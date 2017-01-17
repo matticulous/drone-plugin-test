@@ -1,0 +1,9 @@
+pipeline:
+  build:
+    image: golang
+    commands:
+      - go build
+  publish:
+    gh_pages:
+      source: docs
+      remote: origin
