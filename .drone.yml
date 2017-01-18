@@ -1,6 +1,3 @@
-workspace:
-  base: /go
-  path: src/git.target.com/MattClark/drone-plugin-test
 pipeline:
   build:
     image: golang
