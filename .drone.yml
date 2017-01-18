@@ -5,3 +5,4 @@ pipeline:
       - go build
   publish:
     image: plugins/drone-gh-pages
+    source: docs
